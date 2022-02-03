@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcast Jonathan Castañeda</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- <main class="main_content"></main>-->
+
+    <input type="checkbox" id="hamburguer" class="menu_hamburguer" />
+
+    <div class="logo_main">
+      <picture class="logo">
+        <img src="images/logo.svg" alt="logo" />
+      </picture>
+      <label class="nav-icon" for="hamburguer">
+        <span></span>
+      </label>
+    </div>
+
+    <nav class="nav_main">
+      <ul class="nav_list_ul">
+        <li class="nav_list_items"><a href="#episodios">episodios</a></li>
+        <li class="nav_list_items"><a href="#nosotros">nosotros</a></li>
+        <li class="nav_list_items"><a href="#entrevistas">entrevistas</a></li>
+        <li class="nav_list_items"><a href="#topicos">t&oacute;picos</a></li>
+      </ul>
+    </nav>
+
+    <header class="header_main">
+      <h1 class="header_tittle">
+        Hello <span class="header_tittle_letter">world </span>pale blue dot.
+      </h1>
+      <p class="header_description">
+        Un podcast que explora el mundo de la programación. Nuevos episodios,
+        todos los jueves cada 15 días.
+      </p>
+      <a href="#" class="header_btn">conoc&eacute; m&aacute;s</a>
+    </header>
+
+    <section class="content_main">
+      <article id="episodios" class="content_episodios">
+        <h2 class="content_episodios_title">episodios</h2>
+        <div class="content_episodios_podcasts">
+          <iframe
+            src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+            width="298"
+            height="232"
+            allow="encrypted-media"
+            frameborder="0"
+            allowtransparency="true"
+          ></iframe>
+          <!--frameborder="0"
+              allowtransparency="true"-->
+          <iframe
+            src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+            width="298"
+            height="232"
+            allow="encrypted-media"
+            frameborder="0"
+            allowtransparency="true"
+          ></iframe>
+          <!--
+              allowtransparency="true"-->
+          <iframe
+            src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+            width="298"
+            height="232"
+            allow="encrypted-media"
+            frameborder="0"
+            allowtransparency="true"
+          ></iframe>
+          <!--frameborder="0"
+              allowtransparency="true"-->
+          <iframe
+            src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+            width="298"
+            height="232"
+            allow="encrypted-media"
+            frameborder="0"
+            allowtransparency="true"
+          ></iframe>
+          <!--frameborder="0"
+              allowtransparency="true"-->
+        </div>
+      </article>
+
+      <article id="nosotros" class="content_nosotros">
+        <picture
+          ><img
+            class="content_nosotros_image"
+            src="images/phone.png"
+            alt="image_nosotros"
+        /></picture>
+        <div class="content_nosotros_text">
+          <h2 class="content_nosotros_text_title">De d&oacute;nde venimos</h2>
+          <p class="content_nosotros_text_description">
+            Our posturings, our imagined self-importance, the delusion that we
+            have some privileged position in the Universe, are challenged by
+            this point of pale light.
+          </p>
+          <p class="content_nosotros_text_description_2">
+            Our planet is a lonely speck in the great enveloping cosmic dark. In
+            our obscurity, in all this vastness, there is no hint that help will
+            come from elsewhere to save us from ourselves.
+          </p>
+        </div>
+      </article>
+
+      <article id="entrevistas" class="content_entrevistas">
+        <h2 class="content_entrevistas_text">Invitadas/os estelares</h2>
+        <div class="content_entrevistas_images">
+          <img
+            src="images/grace-hopper.png"
+            alt="grace-hopper_image"
+            class="image_1"
+          />
+          <img
+            src="images/Katie-Bouman.png"
+            alt="Katie-Bouman_image"
+            class="image_2"
+          />
+          <img
+            src="images/Margaret_Hamilton.png"
+            alt="/Margaret_Hamilton_image"
+            class="image_3"
+          />
+          <img
+            src="images/An_E.R.A.Univac_1103_computer_in_the_1950s.png"
+            alt="computer_image"
+            class="image_4"
+          />
+
+          <img
+            src="images/Computer_operators_with_an_Eniac_the_world’s_first_programmable_general_purpose_computer.png"
+            alt="computer-operator_image"
+            class="image_5"
+          />
+
+          <img
+            src="images/susan-kare.png"
+            alt="susan-kare_image"
+            class="image_6"
+          />
+        </div>
+      </article>
+
+      <article id="topicos" class="content_topicos">
+        <h2 class="content_topicos_text">Algunos de nuestros temas</h2>
+        <div class="content_topicos_all_icons">
+          <div class="icon">
+            <a href="#"><img src="images/icon1.svg" alt="icon_1" /></a>
+            <div class="icon_text icon_1">Trabajo remoto</div>
+          </div>
+          <div class="icon">
+            <a href="#"> <img src="images/icon2.svg" alt="icon_2" /></a>
+            <div class="icon_text icon_2">
+              Repensando la programaci&oacute;n
+            </div>
+          </div>
+          <div class="icon">
+            <a href="#"><img src="images/icon3.svg" alt="icon_3" /></a>
+            <div class="icon_text icon_3">Bases del c&oacute;digo</div>
+          </div>
+          <div class="icon">
+            <a href="#"> <img src="images/icon4.svg" alt="icon_4" /></a>
+            <div class="icon_text icon_4">Seguridad inform&aacute;tica</div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="novedades">
+      <div class="novedades_text">
+        ¿Quer&eacute;s las &uacute;ltimas novedades?
+      </div>
+      <a href="#" class="novedades_btn">escuch&aacute; los episodios</a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer_copyrigths">
+        © 2019— Hello blue pale dot
+      </div>
+      <div class="footer_icons">
+        <a href="https://www.spotify.com"><i class="fa fa-spotify"></i></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
